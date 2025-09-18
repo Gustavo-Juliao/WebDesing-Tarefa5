@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Faculdade Exemplo</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        header,
+        nav,
+        main,
+        footer {
+            padding: 20px;
+        }
+
+        header {
+            background: #004080;
+            color: white;
+        }
+
+        nav {
+            background: #0066cc;
+        }
+
+        nav a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        .banner {
+            background: gray;
+            height: 200px;
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            margin: 20px 0;
+            background: white;
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px; }
+
+        .footer-links,
+        .social-links {
+            margin-top: 10px;
+        }
+
+        .footer-links a,
+        .social-links a {
+            color: #0099ff; /* Cor azul para links no rodapé */
+            text-decoration: none;
+            margin: 0 8px; /* Espaçamento entre os links */
+        }
+
+        .footer-links a:hover,
+        .social-links a:hover {
+            text-decoration: underline;
+          }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Faculdade Exemplo</h1>
+        <p>Transformando conhecimento em futuro</p>
+        <meta name="description" content="Faça o seu futuro acontecer. Conheça a faculdade Exemplo, uma instituição de excelencia com graduação e pós graduação inovadores! Matricule-se já!">
+        <!--Inserção de meta description e indexzação-->
+    </header>
+
+    <nav>
+        <a href="#quemSomos">Início</a>
+        <a href="#nossosCursos">Cursos</a>
+        <a href="#quemSomos">Sobre</a>
+        <a href="#faleConosco">Contato</a>
+        <!--  Link âncoras melhores e textos âncora otimizados  que ajudam no ranqueamento -->
+    </nav>
+
+    <div class="banner">
+        <h2>Bem-vindo à nossa instituição</h2>
+    </div>
+
+    <main>
+        <section>
+            <h2 id="quemSomos">Quem Somos</h2>
+            <p>A Faculdade Exemplo é uma instituição fictícia dedicada à formação de profissionais preparados para os desafios do mercado.</p>
+            <p>Oferecemos graduação e pós graduação presencialmente e à distância para todos os nossos docentes</p>
+            <p>Nossa instituição é referência internacional de acordo com a ONU</p>
+            <p>Nossa missão é oferecer educação de qualidade e transformar a vida de nossos alunos.</p>
+            <!-- inserção de palavras-chaves relacionadas a "faculdade" e "ensino superior" -->
+        </section>
+
+        <section>
+            <h2 id="nossosCursos">Nossos Cursos</h2>
+            <ul>
+                <nav>
+                    <a href="#administracao">Administração</a>
+                    <a href="#cienciasDaComputacao">Ciência da Computação</a>
+                    <a href="#direito">Direito</a>
+                    <a href="#engenhariaCivil">Engenharia Civil</a>
+                    <a href="#medicina">Medicina</a>
+                </nav>
+            </ul>
+            <!--  links internos para a lista de cursos -->
+        </section>
+
+        <section>
+            <h2 id="quemSomos">Infraestrutura</h2>
+            <img src="\Imagens\campus.png" alt="Foto tirada por drone com vista de todo o campus a partir do pátio">
+
+            <p>Nosso campus conta com biblioteca, laboratórios modernos e áreas de convivência.</p>
+            <p>Estamos sempre investindo em tecnologia e inovação.</p>
+            <!-- criação de atributo alt -->
+        </section>
+
+        <section>
+            <h2>Corpo Docente</h2>
+            <p>Contamos com professores altamente qualificados, mestres e doutores em diversas áreas do conhecimento,
+              como Engenharia Civil, Ciência da Computação, Medicina, Direito e Administração.</p> 
+              
+            <p>Na Engenharia Civil, destacam-se pesquisas em estruturas sustentáveis, geotecnia e gerenciamento de obras.
+                Em Ciência da Computação, nossos docentes atuam em projetos de inteligência artificial, segurança da informação,
+                aprendizado de máquina e desenvolvimento de software.
+                Na área da Medicina, as especializações vão desde clínica médica e cirurgia geral até pesquisa em saúde pública e biotecnologia. 
+                O curso de Direito conta com professores especialistas em direito penal, constitucional, civil e trabalhista, 
+                enquanto a Administração abrange áreas como gestão estratégica, finanças e empreendedorismo.</p>
+                
+            <p>Investimos continuamente em pesquisa e inovação, com grupos de estudo e laboratórios especializados que contribuem diretamente para a formação acadêmica
+            e profissional dos nossos alunos, incentivando a produção científica e o pensamento crítico.</p>
+            
+            <p>Nosso corpo docente é composto por profissionais atuantes no mercado, com ampla experiência acadêmica e envolvimento ativo em projetos interdisciplinares,
+            congressos científicos e publicações reconhecidas nacional e internacionalmente.</p>
+
+            <!-- conteúdo rico em palavras-chave sobre especializações ou áreas de pesquisa -->
+        </section>
+
+        <section>
+    <h2>Notícias Recentes</h2>
+
+    <article>
+        <h3>Semana Acadêmica 2025</h3>
+        <p>A Faculdade Exemplo realizou sua tradicional Semana Acadêmica com palestras e workshops.</p>
+        
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "NewsArticle",
+          "headline": "Semana Acadêmica 2025",
+          "datePublished": "2025-09-16T00:00:00-03:00",
+          }
+        </script>
+        <img src="Imagens\Parceria.png" alt="Uma de nossas reuniões sobre nossa Parcerias internacionais e bolsa de intercâmbio.">
+    </article>
+
+    <article>
+        <h3>Parceria Internacional</h3>
+        <p>Firmamos acordo com universidades estrangeiras para intercâmbio de nossos alunos.</p>
+        
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "NewsArticle",
+          "headline": "Parceria Internacional",
+          "datePublished": "2025-09-15T00:00:00-03:00",
+        }
+        </script>
+        <img src="Imagens\Semana academica.png" alt="Palestra de um dos nossos docentes em nossa semana academica.">
+    </article>
+
+    </section>
+<!-- foi adicionado marcação estru com imagens da noticias -->
+      
+
+        <section>
+            <h2>Depoimentos</h2>
+            <blockquote>
+                <p>"A Faculdade Exemplo mudou minha vida. Hoje atuo em uma grande empresa graças à formação recebida."</p>
+                <footer>- Ex-Aluno</footer>
+            </blockquote>
+            <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "itemReviewed": {
+                "@type": "Organization",
+                "name": "Faculdade Exemplo"
+              },
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5" 
+                // Assumindo uma avaliação de 5 estrelas para um depoimento positivo.
+                // Se não quiser estrelas, pode remover reviewRating.
+              },
+              "name": "Depoimento sobre a Faculdade Exemplo", // Título da avaliação
+              "author": {
+                "@type": "Person",
+                "name": "Ex-Aluno"
+              },
+              "reviewBody": "A Faculdade Exemplo mudou minha vida. Hoje atuo em uma grande empresa graças à formação recebida.",
+              "datePublished": "2024-01-15" // Data em que o depoimento foi feito (aproximada)
+            }
+            </script>
+
+            <blockquote>
+                <p>"Professores qualificados e ótima estrutura. Recomendo a todos."</p>
+                <footer>- Aluna</footer>
+            </blockquote>
+            <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "itemReviewed": {
+                "@type": "Organization",
+                "name": "Faculdade Exemplo"
+              },
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5" 
+                // Assumindo uma avaliação de 5 estrelas.
+              },
+              "name": "Avaliação de estrutura e corpo docente", // Título da avaliação
+              "author": {
+                "@type": "Person",
+                "name": "Aluna"
+              },
+              "reviewBody": "Professores qualificados e ótima estrutura. Recomendo a todos.",
+              "datePublished": "2024-02-20" // Data em que o depoimento foi feito (aproximada)
+            }
+            </script>
+            </section>
+            <!-- Foi adicionado um review schema para melhoramento do SEO-->
+        
+          
+		  <section>
+            <h2 id="administracao">Adminstração</h2>
+            <p>
+              O curso de Administração prepara profissionais para atuar na gestão de empresas e organizações, desenvolvendo 					
+              habilidades em liderança, finanças, marketing, recursos humanos e planejamento estratégico. É uma formação versátil, 				
+              com amplo mercado de trabalho.
+            </p>
+  
+          </section>
+          
+          <section>
+            <h2 id="cienciasDaComputacao">Ciências da Computação</h2>
+            <p>
+    	         Voltado para a inovação tecnológica, o curso de Ciência da Computação forma profissionais capacitados em 					
+                 programação, desenvolvimento de software, inteligência artificial, segurança da informação e outras áreas fundamentais da 			
+                 tecnologia da informação.
+            </p>
+  
+          </section>
+          
+           <section>
+            <h2 id="direito">Direito</h2>
+            <p>
+    	         O curso de Direito oferece uma formação sólida em legislação, ética, cidadania e justiça. Prepara o aluno para 					
+                 atuar como advogado, juiz, promotor ou em diversas áreas jurídicas, tanto no setor público quanto no privado.
+            </p>
+  
+          </section>
+          
+            <section>
+            <h2 id="engenhariaCivil">Engenharia Civil</h2>
+            <p>
+    	         Com foco em projetos, construção e infraestrutura, o curso de Engenharia Civil capacita o aluno a atuar em obras de 				
+                 pequeno e grande porte, como edifícios, pontes, estradas e barragens, com responsabilidade técnica e ambiental.
+            </p>
+  
+          </section>
+          
+          <section>
+            <h2 id="medicina">Medicina</h2>
+            <p>
+    	         O curso de Medicina oferece uma formação completa para futuros médicos, unindo teoria e prática desde os primeiros períodos.
+                  Os estudantes aprendem a promover a saúde, diagnosticar e tratar doenças, com base em ética, humanização e conhecimento científico.
+            </p>
+  
+          </section>
+          
+          
+        <section>
+    <h2 id="faleConosco">Fale Conosco</h2>
+    <form action="obrigado.html" method="POST"> 
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br> 
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="5" cols="30" required></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+<!--Foi Criada a pagina obrigado que manda o usuario apos o mesmo enviar sua mensagem-->
+    </main>
+
+   <footer>
+    <p>&copy; 2025 Faculdade Exemplo - Todos os direitos reservados</p>
+    <p>Endereço: Rua da Educação, 123 - Cidade Exemplo</p>
+    <p>Telefone: (00) 1234-5678</p>
+
+    <div class="footer-links">
+        <a href="sitemap.xml" target="_blank" rel="noopener noreferrer">Mapa do Site</a> |
+        <a href="privacidade.html">Política de Privacidade</a>
+    </div>
+
+    <div class="social-links">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook da Faculdade Exemplo">Facebook</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Faculdade Exemplo">Instagram</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn da Faculdade Exemplo">LinkedIn</a>
+    </div>
+</footer><!--Foi adicionado paginas de sitemap e privacidade, links de redes sociais 
+          que nesse caso não existem por isso a paginal pricipal e melhorias no css-->
+
+</body>
+
+</html>
